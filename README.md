@@ -2,9 +2,8 @@
  
  This game is based on  concepts learned from Object-Oriented JavaScript and HTML5 Canvas courses.
 
-## HOW TO PLAY
 
-###Game Instructions:
+## Game Instructions:
 
 Move up: up arrow
 Move down: down arrow
