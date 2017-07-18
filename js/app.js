@@ -22,7 +22,7 @@ Enemy.prototype.update = function(dt) {
     // which will ensure the game runs at the same speed for
     // all computers.
     if (this.x < 500)
-        this.x = this.x + this.speed * dt;
+        this.x = this.x + this.speed * dt; 
     else {
         this.reset();
     }
@@ -42,7 +42,7 @@ var Player = function(x, y) {
     this.sprite = 'images/char-boy.png';
     this.x = x;
     this.y = y;
-};
+}; 
 
 Player.prototype.update = function() {
     for (var i = 0; i < allEnemies.length; i++) {
@@ -74,8 +74,8 @@ Player.prototype.handleInput = function(button) {
             this.y = this.y - 90;
         } else {
             console.log('bug');
-            score += 1;
-            this.reset();
+          
+            this.back();
 
         }
     } else if (button == 'down') {
