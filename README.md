@@ -10,9 +10,9 @@
 
 ## Game Instructions:
 
-Move up: up arrow
-Move down: down arrow
-Move left: left arrow
-Move right: right arrow
-Reach the water
-Avoid the bugs
+* Move up: up arrow
+* Move down: down arrow
+* Move left: left arrow
+* Move right: right arrow
+* Reach the water
+* Avoid the bugs
